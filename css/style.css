@@ -11,6 +11,7 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   color: #2e363e;
@@ -18,4 +19,18 @@ body {
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.find-header__notification-father {
+  position: relative;
+}
+
+.find-header__notification {
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
 }
