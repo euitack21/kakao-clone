@@ -40,6 +40,7 @@
 
     <main class="main-screen main-chat">
       <div class="chat__timestamp">Friday, May 05, 2023</div>
+
       <div class="message-row">
         <img
           src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2F20120630_213%2Fjhharry9350_1341063779231CamW9_JPEG%2Fmessi111.jpg&type=a340"
@@ -52,7 +53,33 @@
           </div>
         </div>
       </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi! nice to meet you!</span>
+            <span class="message__time">22:00</span>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>화면 창을 줄여주세요.</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/fad059d4d6.js"
